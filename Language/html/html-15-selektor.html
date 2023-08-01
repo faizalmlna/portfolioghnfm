@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>HTML - Selektor CSS</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/assets/img/favicon.png" rel="icon">
+  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Moderna
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center ">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="/index.html"><span>Web Learning</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="active " href="/index.html">Home</a></li>
+          <li class="dropdown"><a href="#"><span>Language</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/html.html".html>HTML</a></li>
+              <li><a href="/phyton.html">PHYTON</a></li>
+              <li><a href="/C.html">C</a></li>
+              <li><a href="/Javascript.html">JAVASCRIPT</a></li>
+            </ul>
+          </li>
+          <li><a href="/team.html">Team</a></li>
+          <li><a href="/contact.html">Contact Us</a></li>
+        </ul>
+        <i class="bi bi-Form mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Blog Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>5 Macam Selektor pada CSS</h2>
+
+          <ol>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/html.html">HTML</a></li>
+            <li>5 Macam Selektor pada CSS</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Blog Section -->
+
+    <!-- ======= Blog Single Section ======= -->
+    <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-8 entries">
+
+            <article class="entry entry-single">
+
+              <div class="entry-img">
+                <img src="img/32.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                5 Macam Selektor pada CSS
+              </h2>
+
+              <div class="entry-meta">
+                <ul>
+                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="/html.html">Admin</a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="/html.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                </ul>
+              </div>
+
+              <div class="entry-content">
+                <p>Hal dasar yang harus kita ketahui setelah memahami cara menulis HTML di CSS adalah selektor. Selektor adalah katakunci dan simbol yang digunakan pada CSS untuk menyeleksi atau memilih elemen HTML.</p>
+                <p>Ada 5 macam selektor di CSS:</p>
+                <ol>
+                  <li>Selektor Tag</li>
+                  <li>Selektor Class</li>
+                  <li>Selektor ID</li>
+                  <li>Selektor Atribut</li>
+                  <li>Selektor Universal</li>
+                </ol>
+                <h3>Selektor Tag</h3>
+                <p>Selektor Tag disbut juga Type Selector. Selektor ini akan memilih elemen berdasarkan nama tag.</p>
+                <p>Contoh :</p>
+                <blockquote class="text-start">
+                  <pre>p{<br />color: blue;<br />}</pre>  
+                </blockquote>
+                <p>Artinya: Pilih semua elemen &lt;p&gt; lalu atur warna teksnya menjadi biru. Kalau misalnya kita punya struktur HTML seperti ini:</p>
+                <blockquote class="text-start">
+                  <pre>&lt;div&gt;Helo apa kabar, saya sedang belajar CSS&lt;/div&gt;<br />&lt;p&gt;Materi yang sedang kita bahas adalah Selektor&lt;/p&gt;<br />&lt;div&gt;Saat ini sedang dibahas tentang selektor tag&lt;/div&gt;<br />&lt;p&gt;Selektor tag adalah selektor untuk memilih elemen HTML berdasarkan nama tagnya&lt;/p&gt;</pre>
+                </blockquote>
+                <p>Maka akan menghasilkan output seperti ini :</p>
+                <img src="img/40.jpg" class="img-fluid" alt="">
+                <p>Semua elemen &lt;p&gt; berwarna biru, sedangkan &lt;div&gt; tidak.</p>
+
+                <h3>Selektor Class</h3>
+                <p>Selektor class adalah selektor yang memilih elemen berdasarkan nama class yang diberikan. Selektor class dibuat dengan tanda titik di depannya.</p>
+                <p>Contoh:</p>
+                <blockquote class="text-start">
+                  <pre>pink {<br />&nbsp;color: white;<br />&nbsp;background: pink;<br />&nbsp;padding: 5px;<br />}</pre>
+                </blockquote>
+                <p>Kita memiliki selektor class beranam .pink. Nah cara menggunakan selektor ini di HTML adalah dengan menambahkan atribut class di dalamnya. Contoh:</p>
+                <blockquote class="text-start">
+                  <pre>Saya sedang belajar &lt;strong class="pink"&gt;CSS&lt;/strong&gt; di petanikode.com.</pre>
+                </blockquote>
+                <p>Maka akan menghasilkan output seperti ini :</p>
+                <img src="img/41.jpg" class="img-fluid" alt="">
+                <p>Selektor class dapat kita gunakan pada elemen yang kita inginkan. Sebuah elemen HTML dapat menggunakan satu atau lebih class.</p>
+
+                <h3>Selektor ID</h3>
+                <p>Selektor ID hampir sama dengan class. Bedanya, ID bersifat unik. Hanya boleh digunakan oleh satu elemen saja. Selektor ID ditandai dengan tanda pagar (#) di depannya. Contoh</p>
+                <blockquote class="text-start">
+                  <pre>#header {<br />&nbsp;background: teal;<br />&nbsp;color: white;<br />&nbsp;height: 100px;<br />&nbsp;padding: 50px;<br />}</pre>
+                </blockquote>
+                <p>Lalu pada kode HTML</p>
+                <blockquote class="text-start">
+                  <pre>&lt;header id="header"&gt;<br /> &lt;h1&gt;Selamat Datang di Website Saya&lt;/h1&gt;<br />&lt;/header&gt;</pre>
+                </blockquote>
+                <p>Maka akan menghasilkan output seperti ini :</p>
+                <img src="img/42.jpg" class="img-fluid" alt="">
+                
+                <h3>Selektor Atribut</h3>
+                <p>Selektor atribut adalah selektor yang memilik elemen berdasarkan atribut. Selektor ini hampir sama seperti selektor Tag.</p>
+                <p>Contoh selektor Atribut:</p>
+                <blockquote class="text-start">
+                  <pre>input[type=text] {<br /> background: none;<br /> color: cyan;<br /> padding: 10px;<br /> border: 1px solid cyan;<br />}</pre>
+                </blockquote>
+                <p>Artinya kita akan memilih semua elemen&nbsp;<code>&lt;input&gt;</code>&nbsp;yang memiliki atribut&nbsp;<code>type='text'</code>.</p>
+                <p>Contoh kode HTML:</p>
+                <blockquote class="text-start">
+                  <pre>&lt;input type="text" placeholder="ketik sesuatu..." /&gt;</pre>
+                </blockquote>
+                <p>Maka akan menghasilkan output seperti ini :</p>
+                <img src="img/43.jpg" class="img-fluid" alt="">
+
+                <h3>Selektor Universal</h3>
+                <p>Selektor universal adalah selektor yang digunakan untuk menyeleksi semua elemen pada jangkaua&nbsp;<em>(scope)</em>&nbsp;tertentu.</p>
+                <p>Contoh:</p>
+                <blockquote class="text-start">
+                  <pre>* {<br />&nbsp;border: 1px solid grey;<br />}</pre>
+                </blockquote>
+                <p>Artinya semua elemen akan memiliki garis&nbsp;<code>solid</code>&nbsp;dengan ukuran&nbsp;<code>1px</code>&nbsp;dan berwarna&nbsp;<code>grey</code>.</p>
+                <p>Hasilnya:</p>
+                <img src="img/44.jpg" class="img-fluid" alt="">
+                <p>Selektor universal bisanya digunakan untuk me-reset CSS.</p>
+                <p>Kenapa harus di-reset?</p>
+                <p>Pada halaman HTML, ada beberapa CSS bawaan browser seperti&nbsp;<code>padding</code>&nbsp;dan&nbsp;<code>margin</code>&nbsp;pada elemen tertentu. Reset bertujuan untuk menghilangkan&nbsp;<code>padding</code>&nbsp;dan&nbsp;<code>margin</code>&nbsp;tersebut.</p>
+                <p>Contoh CSS reset:</p>
+                <blockquote class="text-start">
+                  <pre>* {<br /> padding: 0;<br /> margin: 0;<br />}</pre>
+                </blockquote>
+                <p>Maka semua elemen tidak akan memiliki padding dan margin.</p>
+              </div>
+
+              <div class="entry-footer">
+                <i class="bi bi-folder"></i>
+                <ul class="cats">
+                  <li><a href="#">Web Learning</a></li>
+                </ul>
+
+                <i class="bi bi-tags"></i>
+                <ul class="tags">
+                  <li><a href="#">HTML</a></li>
+                  <li><a href="#">Web</a></li>
+                  <li><a href="#">Programming</a></li>
+                </ul>
+              </div>
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Language</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="team.html">team</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Language</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">HTML</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">PHYTON</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">C</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">JAVASCRIPT</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              Jl. Harsono RM No.1 RT09/04, RT.9/RW.4, Ragunan, Pasar Minggu, South Jakarta City, Jakarta 12550
+              <br>
+              <br>
+              <strong>Phone:</strong>021-27806189<br>
+              <strong>Email:</strong>pmb@unsia.ac.id<br>
+            </p>
+
+          </div>
+          <!--penjelasan mengenai weblearning-->
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>About Web Learning</h3>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-youtube"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="/assets/vendor/aos/aos.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>

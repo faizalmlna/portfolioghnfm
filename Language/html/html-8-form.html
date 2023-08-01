@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>HTML - Form</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/assets/img/favicon.png" rel="icon">
+  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Moderna
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center ">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="/index.html"><span>Web Learning</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="active " href="/index.html">Home</a></li>
+          <li class="dropdown"><a href="#"><span>Language</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/html.html".html>HTML</a></li>
+              <li><a href="/phyton.html">PHYTON</a></li>
+              <li><a href="/C.html">C</a></li>
+              <li><a href="/Javascript.html">JAVASCRIPT</a></li>
+            </ul>
+          </li>
+          <li><a href="/team.html">Team</a></li>
+          <li><a href="/contact.html">Contact Us</a></li>
+        </ul>
+        <i class="bi bi-Form mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Blog Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Membuat Form di HTML</h2>
+
+          <ol>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/html.html">HTML</a></li>
+            <li>Membuat Form di HTML</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Blog Section -->
+
+    <!-- ======= Blog Single Section ======= -->
+    <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-8 entries">
+
+            <article class="entry entry-single">
+
+              <div class="entry-img">
+                <img src="img/21.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                Membuat Form di HTML
+              </h2>
+
+              <div class="entry-meta">
+                <ul>
+                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="/html.html">Admin</a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="/html.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                </ul>
+              </div>
+
+              <div class="entry-content">
+                <p><strong>Form</strong>&nbsp;merupakan tempat penginputan data sebelum diproses oleh sistem.&nbsp; Salah satunya adalah form login, form comment, form data user, dan lain sebagainya. Untuk proses penginputan data dari form akan kita bahas di materi PHP, MYSQL, dan JavaScript. Tag yang digunakan untuk membuat form ini adalah &lt;form&gt; yang didalamnya bisa berupa &lt;input&gt;, &lt;textarea&gt;,&lt;opstion&gt; dan&nbsp;&lt;select&gt;.</p>
+              
+                <h3>Tag &lt;form&gt;</h3>
+                <p>Dalam tag &lt;form&gt; ini dibutuhkan beberapa atribut untuk memproses data yang akan dikirim. Dan biasanya nilai yang dikirem berupa alamat dari sebuah halaman untuk memproses data inputan. dan atribut yang kedua berupa&nbsp;<strong>method. Method&nbsp;</strong>ini menjelaskan bagaimana data yang akan dikirim oleh web browser. Nilai dari method ini biasnya&nbsp;<strong>get atau post. </strong>Berikut contoh penulisan &lt;form&gt; pada HTML :</p>
+                <blockquote class="text-start">
+                  <pre>&lt;form action="proses.php" method="post"&gt;<br /> .....isikan dengan form .....<br />&lt;/form&gt;</pre>  
+                </blockquote>
+                
+                <h3>Tag &lt;input&gt;</h3>
+                <p><strong>Tag input</strong>&nbsp;merupakan tag yang akan digunakan dalam form pengisian. Tag input ini memiliki banyak sekali bentuk yang bisa digunakan misalkan isian teks, password, checkbox, radiobutton, sampai dengan tombol submit berada dalam tag &lt;input&gt;.</p>
+                <p>Berikut beberapa bentuk dalam keluarga&nbsp;tag &lt;input&gt; yang dikategorikan berdasarkan atribut :</p>
+                <ol>
+                  <li><strong>&lt;input type=&rsquo;text&rsquo;&gt;</strong>&nbsp;textbox yang bisa menerima inputan text misalkan username atau berupa inputan text yang pendek.</li>
+                  <li><strong>&lt;input type=&rsquo;password&rsquo;&gt;</strong>&nbsp;textbox yang menerima inputan text, akan tetapi text yang diinput akan di tampilkan sebagai tanda bintang atau titik, textbox ini biasanya digunakan untuk inputan password.</li>
+                  <li><strong>&lt;input type=&rsquo;submit&rsquo;&gt;</strong>&nbsp;inputan ini berupa tombol (button) untuk memproses data inputan dari form.</li>
+                  <li><strong>&lt;input type=&rsquo;checkbox&rsquo;&gt;</strong>&nbsp;inputan berupa checkbox yang dapat di ceklis oleh user.</li>
+                  <li><strong>&lt;input type=&rsquo;radio&rsquo;&gt;</strong>&nbsp;inputan yang berupa radio grup, dimana user dapat memilih salah satu dari pilihan yang disediakan. salah satu contoh penggunaan dari radio ini adalah jenis kelamain.</li>
+                </ol>
+                <h3>tag &lt;textarea&gt;</h3>
+                <p><strong>&lt;textarea&gt;</strong>&nbsp;merupakan tag yang sama fungsinya dengan inputan text, hanya saja pada textarea ini dapat diisikan dengan lebih banyak teks didalamnya. Untuk mengatur panjang&nbsp;dan banyak baris pada textarea&nbsp;ini dapat menggunakan CSS.</p>
+                <p>Berikut contoh penulisan textarea :</p>
+                <blockquote class="text-start">
+                  <pre>&lt;textarea&gt;<br />&nbsp;isika pesan anda<br />&lt;/textarea&gt;</pre>
+                </blockquote>
+
+                <h3>Tag &lt;select&gt;</h3>
+                <p><strong>&lt;select&gt;</strong>&nbsp;merupakan tag yang digunakan untuk user memilih data yang sudah disediakan. Dalam penggunakan &lt;select&gt; selelau diikuti oleh &lt;option&gt; yng digunakan untuk membuat pilihan.</p>
+                <p>Berikut contoh penulisan &lt;select&gt; pada HTML</p>
+                <blockquote class="text-start">
+                  <pre>&lt;select&gt;<br />&nbsp;&lt;option&gt;Semarang&lt;/option&gt;<br />&nbsp;&lt;option&gt;Bandung&lt;/option&gt;<br />&lt;/select&gt;</pre>
+                </blockquote>
+
+                <h3>Atribut name</h3>
+                <p><strong>Atribut name</strong>&nbsp;merupakan atribut yang nilainya akan digunakan pada saat memproses data oleh web server. Berikut contoh penulisan yang menggunakan atribut name</p>
+                <blockquote class="text-start">
+                  <pre>nama : &lt;input type="text" name="nama"&gt;&lt;br/&gt;<br />alamat : &lt;input type="text" name="alamat"&gt;&lt;/br/&gt;<br />password : &lt;input type="password" name="pass"&gt;&lt;br/&gt;</pre>
+                </blockquote>
+                <p>Untuk lebih jelas membuat form dengan menggunakan HTML, perhatikan contoh berikut :</p>
+                <blockquote class="text-start">
+                <pre>&lt;!DOCTYPE html&gt;<br />&lt;html&gt;<br />&lt;head&gt;<br />&nbsp;&lt;title&gt;Belajar Membuat Form pada HTML&lt;/title&gt;<br />&lt;/head&gt;<br /> <br />&lt;body&gt;<br />&nbsp;&lt;form&gt;<br />&nbsp; nama : &lt;input type="text" name="nama"&gt;&lt;br/&gt;<br />&nbsp; alamat : &lt;input type="text" name="alamat"&gt;&lt;/br/&gt;<br />&nbsp; password : &lt;input type="password" name="pass"&gt;&lt;br/&gt;<br />&nbsp; Jenis Kelamin : <br />&nbsp; &lt;input type="radio" name="jk" value="laki-laki" checked /&gt; <br />&nbsp; Laki - Laki<br />&nbsp; &lt;input type="radio" name="jk" value="perempuan" /&gt; <br />&nbsp; Perempuan<br />&nbsp; &lt;br/&gt;<br />&nbsp; bahas pemograman yang dikuasai :<br />&nbsp; &lt;input type="checkbox" name="web"&gt; Web<br />&nbsp; &lt;input type="checkbox" name="mobile"&gt; MOBILE<br />&nbsp; &lt;input type="checkbox" name="desk"&gt; DESKTOP<br />&nbsp; &lt;br/&gt;<br />&nbsp; kota asal :<br />&nbsp; &lt;select&gt;<br />&nbsp; &lt;option&gt;Semarang&lt;/option&gt;<br />&nbsp; &lt;option&gt;Bandung&lt;/option&gt;<br />&nbsp; &lt;/select&gt;<br />&nbsp; &lt;br/&gt;<br />&nbsp; pesan anda :<br />&nbsp; &lt;textarea&gt;<br /> <br />&nbsp; &lt;/textarea&gt;<br />&nbsp; &lt;br/&gt;<br />&nbsp; &lt;input type="submit" value="proses"&gt;<br />&nbsp;&lt;/form&gt;<br />&lt;/body&gt;<br />&lt;/html&gt;</pre>
+                </blockquote>
+                <p>Hasilnya :</p>
+                <img src="img/22.jpg" class="img-fluid" alt="">
+                <p>Dari contoh di atas dapat anda lihat penggunaan masing-masing tag atau atribut yang sudah kita bahas. Adapun untuk mempercantik tampilan form dapat memalui CSS nantinya.</p>
+              </div>
+
+              <div class="entry-footer">
+                <i class="bi bi-folder"></i>
+                <ul class="cats">
+                  <li><a href="#">Web Learning</a></li>
+                </ul>
+
+                <i class="bi bi-tags"></i>
+                <ul class="tags">
+                  <li><a href="#">HTML</a></li>
+                  <li><a href="#">Web</a></li>
+                  <li><a href="#">Programming</a></li>
+                </ul>
+              </div>
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Language</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="team.html">team</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Language</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">HTML</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">PHYTON</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">C</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">JAVASCRIPT</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              Jl. Harsono RM No.1 RT09/04, RT.9/RW.4, Ragunan, Pasar Minggu, South Jakarta City, Jakarta 12550
+              <br>
+              <br>
+              <strong>Phone:</strong>021-27806189<br>
+              <strong>Email:</strong>pmb@unsia.ac.id<br>
+            </p>
+
+          </div>
+          <!--penjelasan mengenai weblearning-->
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>About Web Learning</h3>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-youtube"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="/assets/vendor/aos/aos.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>

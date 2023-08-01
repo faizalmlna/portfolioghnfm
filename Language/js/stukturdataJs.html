@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Stuktur data dan array</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/assets/img/favicon.png" rel="icon">
+  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center ">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="/index.html"><span>Web Learning</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="active " href="/index.html">Home</a></li>
+          <li class="dropdown"><a href="#"><span>Language</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/html.html".html>HTML</a></li>
+              <li><a href="/phyton.html">PHYTON</a></li>
+              <li><a href="/C.html">C</a></li>
+              <li><a href="/Javascript.html">JAVASCRIPT</a></li>
+            </ul>
+          </li>
+          <li><a href="/team.html">Team</a></li>
+          <li><a href="/contact.html">Contact Us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Blog Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Stuktur data dan Array</h2>
+
+          <ol>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/Javascript.html">Javascript</a></li>
+            <li>Stuktur data</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Blog Section -->
+
+    <!-- ======= Blog Single Section ======= -->
+    <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-8 entries">
+
+            <article class="entry entry-single">
+
+              <div class="entry-img">
+                <img src="/assets/img/arrayJs.png" width="3000" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                <a href="/Language/statement.html">Stuktur data dan Array</a>
+              </h2>
+
+              <div class="entry-meta">
+                <ul>
+                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-single.html">admin</a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-single.html"><time datetime="2023-07-22">July 07, 2023</time></a></li>
+                </ul>
+              </div>
+
+              <div class="entry-content">
+                <p>
+                  <b>Struktur data</b> merupakan cara-cara atau metode yang digunakan untuk menyimpan data di dalam memori komputer, Salah satu struktur data yang sering digunakan dalam
+                  pemrograman adalah Array, <b>Array</b> merupakan struktur data yang digunakan untuk menyimpan sekumpulan data dalam satu tempat.
+                </p>
+                  <blockquote>
+                    <p>
+                      <u>example membuat array pada Javascript</u><br>
+                      <br>
+                      &lt; script &gt; <br>
+                      &emsp; var products = ["senter", "Radio", "Antena", "Obeng"];<br>
+                      
+                      <br>
+                      &emsp; document.write(&lt;h3&gt;Daftar Produk : &lt;/h3&gt;<br>
+                      &emsp; document.write("&lt;ol&gt;")<br>
+
+                      <br>
+                      &emsp; products.forEach((data ) =>{<br>
+                      &emsp; document.write('&lt;li&gt;${data}&lt;/li&gt;');<br>
+                      })<br>
+                      &emsp; document.write("&lt;/ol&gt;")
+                       <br>
+                      &lt; /script &gt; <br>
+
+                    </p>
+                  </blockquote>
+                  <h3>Menambahkan Data ke Dalam Array</h3>
+                  <p>
+                    Ada dua cara yang bisa dilakukan untuk menambah data ke dalam array yaitu dengan mengisi menggunakan
+                    <b>Indeks;</b> dan menggunakan <b>method push().</b>
+                  </p>
+                  <blockquote>
+                    <p>
+                      <u>example menambahkan menggunakan push</u><br>
+                      <br>
+                      &lt; script &gt; <br>
+                      &emsp; var products = ["senter", "Radio", "Antena", "Obeng"];<br>
+                      
+                      <br>
+                      &emsp; products.push("Televisi");<br>
+                      <br>
+                      &emsp; document.write("products");
+                       <br>
+                      &lt; /script &gt; <br>
+
+                    </p>
+                  </blockquote>
+
+                  <h3>Menghapus Data Dari Array </h3>
+                  <p> 
+                    Seperti menambahkan data ke array, menghapus data juga memiliki dua cara yaitu dengan <b>delete</b> dan menggunakan <b> method pop()</b>,
+                    method akan menghapus arrat yang ada dipaling belakang. arrat pada Javascript dapat dikatakan sebagai sebuah stack (tumpukan),
+                    yang mana memiliki sifat LILO (Last In Last Out). apa bila kita ingin menghapus data pada indeks tertentu, maka fungsi atau method
+                    yang digunakan adalah splice().
+                  </p>
+                  <p> Fungsi ini memiliki dua parameter yang harus diberikan:  </p>
+                  <blockquote>
+                    <p> array.splice(&lt;indeks&gt;,&lt;total&gt;);</p>
+                  </blockquote>
+                  <p> Keterangan</p>
+                  <ul>
+                    <li>
+                      &lt;indeks&gt; adalah indeks dari data didalam array yang akan dihapus.
+                    </li>
+                    <li>
+                      &lt;total&gt; adalah jumlah data yang akan dihapus dari indeks tersebut.
+                    </li>
+                  </ul>
+
+                  <h3>Mengubah Isi Data Pada Array</h3>
+                  <p> untuk mengubah isi data pada array bisa menggunakan script sebagai berikut</p>
+                  <blockquote>
+                    <p>
+                      &lt; script &gt; <br>
+                      &emsp; var products = ["senter", "Radio", "Antena", "Obeng"];<br>
+                      
+                      <br>
+                      &emsp; products[1] = "Komputer";<br>
+                      <br>
+                      &emsp; document.write("products");
+                       <br>
+                      &lt; /script &gt; <br>
+                    </p>
+                  </blockquote>
+
+                  <h3>Method-method Array Lain</h3>
+                  <ol>
+                    <li>Method Filter() </li>
+                    <p>Method filter() berfungsi untuk menyaring data dariarray. Parameter yang harus diberikan pada method filter() sama seperti method forEach(), yaitu: sebuah fungsi
+                      callback.</p>
+                      <blockquote>
+                        <p>
+                          &lt; script &gt; <br>
+                          &emsp; const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];<br>
+                          
+                          <br>
+                          &emsp; consr filteredArray = angka.filter((item)=> {<br>
+                            &emsp; return item % 2==0});<br>
+                          <br>
+                          &emsp; document.write(filteredArray);
+                           <br>
+                          &lt; /script &gt; <br>
+                        </p>
+                      </blockquote>
+
+                      <li>Method Includes()</li>
+                      <p>Method ini berfungsi untuk mengecek apakah sebuah data ada di dalam array atau tidak. Biasanya
+                        digunakan untuk melakukan pencarian untuk memastikan data sudah ada di dalam array.</p>
+                        <blockquote>
+                          <p>
+                            &lt; script &gt; <br>
+                            &emsp; var tanaman = ["padi", "kacang", "Jagung", "Kedelai"];<br>
+                            &emsp; var adakacang = tanaman.includes("kacang")
+                            <br>
+                            &emsp; document.write(adakacang);
+                            <br>
+                            &lt; /script &gt; <br>
+                          </p>
+                        </blockquote>
+
+                        <li> Method Sort()</li>
+                        <p> Metheod sort() berfungsi untuk mengurutkan data pada array</p>
+                        <blockquote>
+                          <p>
+                            &lt; script &gt; <br>
+                            &emsp; var alfabet = ['a', 'b', 'e', 'd', 'c', 'f', 'g'];<br>
+                            &emsp; var angka = [3,2,1,4,6,8]<br>
+                            <br>
+                            &emsp; document.write(alfabet.sort());<br>
+                            <br>
+                            &emsp; document.write(angka.sort());
+                            <br>
+                            &lt; /script &gt; <br>
+                          </p>
+                        </blockquote>
+                  </ol>
+                  
+              
+
+              </div>
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Language</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="team.html">team</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Language</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="/html.html">HTML</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="/phyton.html">PHYTON</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="/C.html">C</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="/Javascript.html">JAVASCRIPT</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              Jl. Harsono RM No.1 RT09/04, RT.9/RW.4, Ragunan, Pasar Minggu, South Jakarta City, Jakarta 12550
+              <br>
+              <br>
+              <strong>Phone:</strong>021-27806189<br>
+              <strong>Email:</strong>pmb@unsia.ac.id<br>
+            </p>
+
+          </div>
+          <!--penjelasan mengenai weblearning-->
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>About Web Learning</h3>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-youtube"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="/assets/vendor/aos/aos.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>
