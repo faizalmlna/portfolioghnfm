@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Blog Single - Moderna Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Moderna
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center ">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html"><span>Web Learning</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="active " href="index.html">Home</a></li>
+          <li class="dropdown"><a href="#"><span>Language</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="html.html".html>HTML</a></li>
+              <li><a href="phyton.html">PHYTON</a></li>
+              <li><a href="C.html">C</a></li>
+              <li><a href="Javascript.html">JAVASCRIPT</a></li>
+            </ul>
+          </li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Blog Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Blog</h2>
+
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li>Bahasa C </li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Blog Section -->
+
+    <!-- ======= Blog Single Section ======= -->
+    <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-8 entries">
+
+            <article class="entry entry-single">
+
+              <div class="entry-img">
+                <img src="assets/img/C/logo-C.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                <a href="C-blog-7.html">Bahasa Pemrograman C : Mengenal Struktur Data Array pada C</a>
+              </h2>
+
+              <div class="entry-meta">
+                <ul>
+                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="C-blog-7.html">Doni Tandrianto</a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="C-blog-7.html"><time datetime="2023-07-21">Jul 21, 2023</time></a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="C-blog-7.html">12 Comments</a></li>
+                </ul>
+              </div>
+
+              <div class="entry-content">
+                <p>
+                  <p>Apa yang akan kamu lakukan jika diminta untuk menyimpan banyak data di program?</p>
+<p>Misalkan kita ingin menyimpan nama-nama teman untuk data kontak.</p>
+<p>Mungkin saja, kita akan menyimpannya seperti ini:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="cpp">char[32] namaKontak1 = "Ayu";
+char[32] namaKontak2 = "Bunga";
+char[32] namaKontak3 = "Cyntia";
+char[32] namaKontak4 = "Deni";
+char[32] namaKontak5 = "Elisa";</code></pre>
+</div>
+</div>
+</div>
+<p>Hal ini boleh-boleh saja..</p>
+<p>Akan tetapi, masalahnya:</p>
+<p>&ldquo;Gimana nanti kalau ada banyak sekali data, pasti capek bikin variabel terus?&rdquo;</p>
+<p>Karena itu, kita membutuhkan Array.</p>
+<p>Apa itu Array, dan bagaimana cara menggunakannya?</p>
+<p>Mari kita bahas&hellip;</p>
+<div data-google-query-id="CO-Qp_aWtIADFWNJnQkdSxMMrA">&nbsp;</div>
+<h2>Apa itu Array?</h2>
+<p>Array merupakan struktur data yang digunakan untuk&nbsp;<strong>menyimpan sekumpulan data</strong>&nbsp;dalam satu tempat.</p>
+<p>Setiap data dalam Array memiliki indeks, sehingga kita akan mudah memprosesnya.</p>
+<figure><picture><source type="image/png" data-srcset="/img/php/array/array.png" /><img title="" src="https://www.petanikode.com/img/php/array/array.png" alt="Array" data-src="/img/php/array/array.png" /></picture></figure>
+<p>Indeks array selalu dimulai dari angka nol (<code>0</code>).</p>
+<p>Pada teori struktur data&hellip;</p>
+<p>&hellip;Ukuran array akan bergantung dari banyaknya data yang ditampung di dalamnya.</p>
+<h2>Cara Membuat Array pada C</h2>
+<p>Pada pemrograman C, array dapat kita buat dengan cara seperti ini.</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="c">// membuat array kosong dengan tipe data integer dan panjang 10
+int nama_array[10];
+// membuat array dengan langsung diisi
+int nama_arr[3] = {0, 3, 2}</code></pre>
+</div>
+</div>
+</div>
+<p>Cara membuat array hampir sama seperti cara membuat variabel biasa.</p>
+<p>Bedanya&hellip; pada array kita harus menentukan panjangnya.</p>
+<figure><picture><source type="image/webp" data-srcset="/img/c/array/array-pada-c.webp" /><img title="" src="https://www.petanikode.com/img/c/array/array-pada-c.webp" alt="Cara Membuat Array pada C" data-src="/img/c/array/array-pada-c.webp" /></picture></figure>
+<h2>Cara Mengambil Data dari Array</h2>
+<p>Seperti yang sudah kita kethaui&hellip;</p>
+<p>Array akan menyimpan sekumpulan data dan memberinya nomer indeks agar mudah diakses.</p>
+<p>Indeks array selalu dimauli dari nol&nbsp;<code>0</code>.</p>
+<p>Misalkan kita punya array seperti ini:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="c">char huruf[5] = {'a', 'b', 'c', 'd', 'e'};</code></pre>
+</div>
+</div>
+</div>
+<p>Bagaimana cara mengambil huruf&nbsp;<code>c</code>?</p>
+<p>Jawabannya:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="c">huruf[2];</code></pre>
+</div>
+</div>
+</div>
+<p>Mengapa bukan&nbsp;<code>huruf[3]</code>?</p>
+<p>Ingat: indeks array selalu dimulai dari nol.</p>
+<p>Biar lebih jelas, mari kita coba dalam program:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="c">#include &lt;stdio.h&gt;
+void main(){
+ char huruf[5] = {'a', 'b', 'c', 'd', 'e'};
+ printf("Huruf: %c\n", huruf[2]);
+}</code></pre>
+</div>
+</div>
+</div>
+<p>Hasilnya:</p>
+<figure><picture><source type="image/webp" data-srcset="/img/c/array/get-data.webp" /><img title="" src="https://www.petanikode.com/img/c/array/get-data.webp" alt="Mengambil data dari array" data-src="/img/c/array/get-data.webp" /></picture></figure>
+<h2>Mengisi Ulang Data pada Array</h2>
+<p>Data pada array dapat kita isi ulang dengan cara seperti ini:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="c">huruf[2] = 'z';</code></pre>
+</div>
+</div>
+</div>
+<p>Maka isi array&nbsp;<code>huruf</code>&nbsp;pada indeks ke-2 akan bernilai&nbsp;<code>'z'</code>.</p>
+<p>Kalau tidak percaya&hellip;</p>
+<p>Kamu bisa coba buktikan sendiri.</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="c">#include &lt;stdio.h&gt;
+void main(){
+ // isi awal array
+ char huruf[5] = {'a', 'b', 'c', 'd', 'e'};
+ // mengubah isi array
+ huruf[2] = 'z';
+ // mencetak isi array
+ printf("Huruf: %c\n", huruf[2]);
+}</code></pre>
+</div>
+</div>
+</div>
+<p>Hasil outputnya:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="txt">Huruf: z</code></pre>
+</div>
+</div>
+</div>
+<p>Contoh lain:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="c">#include &lt;stdio.h&gt;
+void main(){
+ // membuat array kosong
+ int nilai[5];
+ // mengisi array
+ nilai[0] = 32;
+ nilai[1] = 42;
+ nilai[2] = 76;
+ nilai[3] = 31;
+ nilai[4] = 57;
+ // mencetak isi array
+ printf("Nilai ke-1: %d\n", nilai[0]);
+ printf("Nilai ke-2: %d\n", nilai[1]);
+ printf("Nilai ke-3: %d\n", nilai[2]);
+ printf("Nilai ke-4: %d\n", nilai[3]);
+ printf("Nilai ke-5: %d\n", nilai[4]);
+}</code></pre>
+</div>
+</div>
+</div>
+<p>Hasilnya:</p>
+<figure><picture><source type="image/webp" data-srcset="/img/c/array/isi-array.webp" /><img title="" src="https://www.petanikode.com/img/c/array/isi-array.webp" alt="Mengisi data ke array" data-src="/img/c/array/isi-array.webp" /></picture></figure>
+<h2>Menggunakan Perulangan dan Array</h2>
+<p>Pada contoh di atas, kita menggunakan perintah&nbsp;<code>printf()</code>&nbsp;secara berulang untuk mencetak semua isi array.</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="c">printf("Nilai ke-1: %d\n", nilai[0]);
+printf("Nilai ke-2: %d\n", nilai[1]);
+printf("Nilai ke-3: %d\n", nilai[2]);
+printf("Nilai ke-4: %d\n", nilai[3]);
+printf("Nilai ke-5: %d\n", nilai[4]);</code></pre>
+</div>
+</div>
+</div>
+<p>Kalau isi array-nya ada ribuan, apa kamu akan sanggup menulis ini berulang-ulang?</p>
+<p>Tentu saja tidak!</p>
+<p>Karena itu, kita bisa memanfaatkan perulangan untuk mencetaknya.</p>
+<p>Contoh:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="c">#include &lt;stdio.h&gt;
+void main(){
+ // membuat array kosong
+ int nilai[5];
+ // mengisi array
+ nilai[0] = 32;
+ nilai[1] = 42;
+ nilai[2] = 76;
+ nilai[3] = 31;
+ nilai[4] = 57;
+ // mencetak isi array dengan perulangan
+ for(int i = 0; i &lt; 5; i++){
+ printf("Nilai ke-1: %d\n", nilai[i]);
+ }
+}</code></pre>
+</div>
+</div>
+</div>
+<p>Hasilnya:</p>
+<figure><picture><source type="image/webp" data-srcset="/img/c/array/isi-array.webp" /><img title="" src="https://www.petanikode.com/img/c/array/isi-array.webp" alt="Mengisi data ke array" data-src="/img/c/array/isi-array.webp" /></picture></figure>
+<p>Jauh lebih sederhana &lsquo;kan&hellip;</p>
+<p>Tapi ada yang masih kurang.</p>
+<p>Pada perulangan di atas kita memberikan batas maksimal secara manual, yaitu:&nbsp;<code>i &lt; 5</code>.</p>
+<p>Nilai&nbsp;<code>5</code>&nbsp;seharusnya diganti dengan ukuran atau jumlah isi array.</p>
+<p>Sehingga akan menjadi seperti ini:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="c">int length = sizeof(nilai) / sizeof(*nilai);
+for (int i = 0; i &lt; length; i++){
+ printf("Nilai ke-1: %d\n", nilai[i]);
+}</code></pre>
+</div>
+</div>
+</div>
+<div>&nbsp;</div>
+<h2>Mengambil Panjang Array</h2>
+<p>Pada contoh di atas, kita menggunakan fungsi&nbsp;<code>sizeof()</code>&nbsp;untuk mengambil panajang atau ukuran array.</p>
+<p>Fungsi&nbsp;<code>sizeof()</code>&nbsp;sebenarnya akan mengambil ukuran memori dari array.</p>
+<p>Misalkan saya punya array seperti ini:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="c">int nilai[2] = {1,2};</code></pre>
+</div>
+</div>
+</div>
+<p>Isi array-nya berupa integer, tipe data integer memiliki ukuran&nbsp;<code>4</code>&nbsp;byte dalam memori. Maka ukuran array tersebut adalah&nbsp;<code>8</code>&nbsp;byte.</p>
+<p>Lalu bagaimana cara mendapatkan banyaknya isi array?</p>
+<p>Bahasa pemrograman C belum memiliki fungsi khusus untuk mengambil banyaknya isi array.</p>
+<p>Tapi kita bisa mengambil panjang array dengan membagi besar array dan ukuran&nbsp;<a href="https://www.petanikode.com/c-pointer/">pointernya</a>.</p>
+<p>Contoh:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="c">int array[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+/* ukuran array dalam byte */
+int size = sizeof(array);
+/* banyaknya isi array `array` */
+int length = sizeof(array) / sizeof(*array);
+</code></pre>
+</div>
+</div>
+</div>
+<p>Mari kita coba&hellip;</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="c">#include &lt;stdio.h&gt;
+void main(){
+ // membuat array
+ int nilai[5] = {33, 22, 11, 44, 21};
+ // mengambil banyaknya isi array
+ int length = sizeof(nilai) / sizeof(*nilai);
+ printf("Banyaknya isi array nilai: %d\n", length);
+}</code></pre>
+</div>
+</div>
+</div>
+<p>Hasilnya:</p>
+<figure><picture><source type="image/webp" data-srcset="/img/c/array/array-len.webp" /><img title="" src="https://www.petanikode.com/img/c/array/array-len.webp" alt="Banyaknya isi data pada array" data-src="/img/c/array/array-len.webp" /></picture></figure>
+<h2>Latihan: Program Hitung Rata-Rata</h2>
+<p>Anggap saja kita diminta untuk membuat program untuk menghitung tinggi rata-rata dari sepuluh orang.</p>
+<p>Pertama kita pasti akan membutuhkan sebuah array dengan panjang&nbsp;<code>10</code>&nbsp;yang berisi kumpulan tinggi badan.</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="c">int tinggi_badan[10] = {175, 165, 166, 157, 184, 156, 163, 176, 171, 169};</code></pre>
+</div>
+</div>
+</div>
+<p>Berikutnya kita harus menghitung nilai rata-rata dari sekumpulan nilai tersebut.</p>
+<p>Rumus nilai rata-rata:</p>
+<figure><picture><source type="image/webp" data-srcset="/img/c/array/rumus-rata.webp" /><img title="" src="https://www.petanikode.com/img/c/array/rumus-rata.webp" alt="Rumus nilai rata-rata dalam matematika" data-src="/img/c/array/rumus-rata.webp" /></picture></figure>
+<p>Mari kita buat programnya&hellip;</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="c">#include &lt;stdio.h&gt;
+void main(){
+ // membuat array dari tinggi badan
+ int tinggi_badan[10] = {175, 165, 166, 157, 184, 156, 163, 176, 171, 169};
+ // length itu sama dengan n
+ int length = sizeof(tinggi_badan) / sizeof(*tinggi_badan);
+ int sum = 0;
+ for(int i = 0; i &lt; length; i++){
+ sum += tinggi_badan[i];
+ }
+ // rata-rata tinggi badan
+ float rata_rata = (float)sum / (float)length;
+ printf("Rata-rata tinggi badan: %.2f\n", rata_rata);
+}</code></pre>
+</div>
+</div>
+</div>
+<p>Hasilnya:</p>
+<figure><picture><source type="image/webp" data-srcset="/img/c/array/program-rata.webp" /><img title="" src="https://www.petanikode.com/img/c/array/program-rata.webp" alt="Program nilai rata-rata dengan C" data-src="/img/c/array/program-rata.webp" /></picture></figure>
+<h2>Array Multi Dimensi</h2>
+<p>Array yang kita buat pada contoh-contoh program di atas adalah array satu dimensi.</p>
+<p>Array bisa dibuat dua dimensi bahkan lebih.</p>
+<p>Array multidimensi biasanya digunakan untuk membuat matriks.</p>
+<p>Contoh array dua dimensi:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="c">int matriks[3][3] = {
+ {1, 3, 5},
+ {5, 3, 1},
+ {6, 2, 3}
+};</code></pre>
+</div>
+</div>
+</div>
+<p>Array dua dimensi biasanya digunakan untuk membuat matriks.</p>
+<p>Lalu bagaimana cara mengambil data dari array dua dimensi?</p>
+<p>Begini caranya:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="c">matriks[1][2];</code></pre>
+</div>
+</div>
+</div>
+<p>Contoh program:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="c">#include &lt;stdio.h&gt;
+void main(){
+ int matriks[3][3] = {
+ {1, 3, 5},
+ {5, 3, 1},
+ {6, 2, 3}
+ };
+ printf("Isi Data pada indeks ke-(1,0): %d\n", matriks[1][0]);
+}</code></pre>
+</div>
+</div>
+</div>
+<p>Hasilnya:</p>
+<figure><picture><source type="image/webp" data-srcset="/img/c/array/matrik.webp" /><img title="" src="https://www.petanikode.com/img/c/array/matrik.webp" alt="Program matriks" data-src="/img/c/array/matrik.webp" /></picture></figure>
+<h2>Apa Selanjutnya?</h2>
+                </p>
+                <!--component text formating isi disini-->
+              <div class="entry-footer">
+                <i class="bi bi-folder"></i>
+                <ul class="cats">
+                  <li><a href="#">Business</a></li>
+                </ul>
+
+                <i class="bi bi-tags"></i>
+                <ul class="tags">
+                  <li><a href="#">Creative</a></li>
+                  <li><a href="#">Tips</a></li>
+                  <li><a href="#">Marketing</a></li>
+                </ul>
+              </div>
+  </main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+
+  <div class="footer-newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h4>Our Newsletter</h4>
+          <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+        </div>
+        <div class="col-lg-6">
+          <form action="" method="post">
+            <input type="email" name="email"><input type="submit" value="Subscribe">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Language</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="team.html">team</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Language</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">HTML</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">PHYTON</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">C</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">JAVASCRIPT</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>Contact Us</h4>
+          <p>
+            Jl. Harsono RM No.1 RT09/04, RT.9/RW.4, Ragunan, Pasar Minggu, South Jakarta City, Jakarta 12550
+            <br>
+            <br>
+            <strong>Phone:</strong>021-27806189<br>
+            <strong>Email:</strong>pmb@unsia.ac.id<br>
+          </p>
+
+        </div>
+        <!--penjelasan mengenai weblearning-->
+        <div class="col-lg-3 col-md-6 footer-info">
+          <h3>About Web Learning</h3>
+          <div class="social-links mt-3">
+            <a href="#" class="twitter"><i class="bx bxl-youtube"></i></a>
+            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- End Footer -->
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

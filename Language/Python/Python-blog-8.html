@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Blog Single - Moderna Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Moderna
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center ">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html"><span>Web Learning</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="active " href="index.html">Home</a></li>
+          <li class="dropdown"><a href="#"><span>Language</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="html.html".html>HTML</a></li>
+              <li><a href="phyton.html">PHYTON</a></li>
+              <li><a href="C.html">C</a></li>
+              <li><a href="Javascript.html">JAVASCRIPT</a></li>
+            </ul>
+          </li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Blog Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Blog</h2>
+
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li>Python </li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Blog Section -->
+
+    <!-- ======= Blog Single Section ======= -->
+    <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-8 entries">
+
+            <article class="entry entry-single">
+
+              <div class="entry-img">
+                <img src="assets/img/Python/pythonimg.png" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                <a href="Python-blog-8.html">Bahasa Pemrograman Python : Mengenal Struktur Data List</a>
+              </h2>
+
+              <div class="entry-meta">
+                <ul>
+                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="Python-blog-8.html">Doni Tandrianto</a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="Python-blog-8.html"><time datetime="2023-07-21">Jul 21, 2023</time></a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="Python-blog-8.html">12 Comments</a></li>
+                </ul>
+              </div>
+
+              <div class="entry-content">
+                <h3>Mengenal Struktur Data List</h3>
+                <p>
+                  <p>Bagaimana caranya menyimpan banyak data dalam satu veriabel?</p>
+<p>Jawabannya menggunakan&nbsp;<strong>List</strong>.</p>
+<p><em>List</em>&nbsp;adalah struktur data pada python yang mampu menyimpan lebih dari satu data, seperti array.</p>
+<p>Pada kesempatan ini, kita akan membahas cara menggunakan&nbsp;<em>list</em>&nbsp;di Python dari yang paling sederhana sampai yang sedikit kompleks.</p>
+<p>Apa saja poin-poin yang akan dipelajari?</p>
+<ul>
+<li>Cara Membuat List dan Mengisinya</li>
+<li>Cara Mangambil nilai dari List</li>
+<li>Cara Menambahkan dan Menghapus isi List</li>
+<li>Operasi pada List</li>
+<li>List multi dimensi</li>
+</ul>
+<p>Selamat menyimak&hellip;</p>
+<h2>Cara Membuat List di Python</h2>
+<p><em>List</em>&nbsp;dapat kita buat seperti membuat variabel biasa, namun nilai variabelnya diisi dengan tanda kurung siku (<code>[]</code>).</p>
+<p>Contoh:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python"># Membuat List kosong
+warna = []
+# Membuat list dengan isi 1 item
+hobi = ["membaca"]</code></pre>
+</div>
+</div>
+</div>
+<p>Apabila list-nya memiliki lebih dari satu isi, maka kita bisa memisahnya dengan tanda koma.</p>
+<p>Contoh:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python">buah = ["jeruk", "apel", "mangga", "duren"]</code></pre>
+</div>
+</div>
+</div>
+<p><strong>Jenis data apa saja yang boleh diisi ke dalam List?</strong></p>
+<p><em>list</em>&nbsp;dapat diisi dengan tipe data apa saja, string, integer, float, double, boolean, object, dan sebagainya.</p>
+<p>Kita juga bisa mencampur isinya.</p>
+<p>Contoh:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python">laci = ["buku", 21, True, 34.12]</code></pre>
+</div>
+</div>
+</div>
+<p>Ada empat jenis tipe data pada list&nbsp;<code>laci</code>:</p>
+<ol>
+<li><code>"buku"</code>&nbsp;adalah tipe data string;</li>
+<li><code>21</code>&nbsp;adalah tipe data integer;</li>
+<li><code>True</code>&nbsp;adalah tipe data boolean;</li>
+<li>dan&nbsp;<code>34.12</code>&nbsp;adalah tipe data float.</li>
+</ol>
+<h2>Cara Mengambil Nilai dari List</h2>
+<p>Setelah kita tahu cara membuat dan menyimpan data di dalam&nbsp;<em>List</em>, mari kita coba mengambil datanya.</p>
+<p>List sama seperti array, list juga memiliki nomer indeks untuk mengakses data atau isinya.</p>
+<figure><picture><source type="image/svg+xml" data-srcset="/img/python/list/contoh-list.svg" /><source type="image/svg" data-srcset="/img/python/list/contoh-list.svg" /><img title="" src="https://www.petanikode.com/img/python/list/contoh-list.svg" alt="List dengan Indeks" data-src="/img/python/list/contoh-list.svg" /></picture></figure>
+<p>Nomer indeks&nbsp;<em>list</em>&nbsp;selalu dimulai dari nol (<code>0</code>).</p>
+<p>Nomer indeks ini yang kita butuhkan untuk mengambil isi (item) dari&nbsp;<em>list</em>.</p>
+<p>Contoh:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python"># Kita punya list nama-nama buah
+buah = ["apel", "anggur", "mangga", "jeruk"]
+# Misanya kita ingin mengambil mangga
+# Maka indeknya adalah 2
+print buah[2]</code></pre>
+</div>
+</div>
+</div>
+<p>Akan menghasilkan output:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="bash">"mangga"</code></pre>
+</div>
+</div>
+</div>
+<p>Horee! dapat mangga. 😄</p>
+<div>&nbsp;</div>
+<h3>Latihan 1: Membuat Program dengan List</h3>
+<p>Untuk memantapkan pemahaman, silahkan coba latihan berikut.</p>
+<ol>
+<li>Buat sebuah list untuk menyimpan kenalanmu</li>
+<li>Isi list sebanyak 5</li>
+<li>Tampilkan isi list indeks nomer 3</li>
+<li>Tampilkan semua teman dengan perulangan</li>
+<li>Tampilkan panjang list</li>
+</ol>
+<p>Mari kita coba&hellip;</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python"># Buat list untuk menampung nama-nama teman
+my_friends = ["Anggun", "Dian", "Agung", "Adi", "Adam"]
+# Tampilkan isi list my_friends dengan nomer indeks 3
+print "Isi my_friends indeks ke-3 adalah: {}".format(my_friends[3])
+# Tampilkan semua daftar teman
+print "Semua teman: ada {} orang".format(len(my_friends))
+for friend in my_friends:
+ print friend</code></pre>
+</div>
+</div>
+</div>
+<p>Pada kode di atas, kita menggunakan fungsi&nbsp;<code>len()</code>&nbsp;untuk mengambil panjang&nbsp;<em>list</em>.</p>
+<p>Hasil outputnya:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="bash">Isi my_friends indeks ke-3 adalah: Adi
+Semua teman: ada 5 orang
+Anggun
+Dian
+Agung
+Adi
+Adam</code></pre>
+</div>
+</div>
+</div>
+<h2>Mengganti Nilai List</h2>
+<p>List bersifat&nbsp;<em>mutable</em>, artinya isinya bisa kita ubah-ubah.</p>
+<p>Contoh:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python"># list mula-mula
+buah = ["jeruk", "apel", "mangga", "duren"]
+# mengubah nilai index ke-2
+buah[2] = "kelapa"</code></pre>
+</div>
+</div>
+</div>
+<p>Maka&nbsp;<code>"mangga"</code>&nbsp;akan diganti dengan&nbsp;<code>"kelapa"</code>.</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python">["jeruk", "apel", "kelapa", "duren"]</code></pre>
+</div>
+</div>
+</div>
+<h2>Menambahkan Item List</h2>
+<p>Tedapat Tiga metode&nbsp;<em>(method)</em>&nbsp;atau fungsi yang bisa digunakan untuk menambahkan isi atau item ke List:</p>
+<ol>
+<li><code>prepend(item)</code>&nbsp;menambahkan item dari depan;</li>
+<li><code>append(item)</code>&nbsp;menambahkan item dari belakang.</li>
+<li><code>insert(index, item)</code>&nbsp;menambahkan item dari indeks tertentu</li>
+</ol>
+<figure><picture><source type="image/svg+xml" data-srcset="/img/python/list/prepend-append.svg" /><source type="image/svg" data-srcset="/img/python/list/prepend-append.svg" /><img title="" src="https://www.petanikode.com/img/python/list/prepend-append.svg" alt="Prepend dan Append" data-src="/img/python/list/prepend-append.svg" /></picture></figure>
+<p>Contoh:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python">#list mula-mula
+buah = ["jeruk", "apel", "mangga", "duren"]
+# Tambahkan manggis
+buah.append("manggis")</code></pre>
+</div>
+</div>
+</div>
+<p>Hasilnya&nbsp;<code>"manggis"</code>&nbsp;akan ditambahkan setelah item terakhir.</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python">["jeruk", "apel", "mangga", "duren", "manggis"]</code></pre>
+</div>
+</div>
+</div>
+<p>Metode yang kedua menggunakan&nbsp;<code>prepend()</code>.</p>
+<p>Metode&nbsp;<code>prepend()</code>&nbsp;akan menambahkan item dari depan atau awal list.</p>
+<p>Contoh:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python">#list mula-mula
+buah = ["jeruk", "apel", "mangga", "duren"]
+buah.prepend("anggur")</code></pre>
+</div>
+</div>
+</div>
+<p>Maka&nbsp;<code>"anggur"</code>&nbsp;akan ditambahkan pada awal list.</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python">["anggur","jeruk", "apel", "mangga", "duren"]</code></pre>
+</div>
+</div>
+</div>
+<p>Selain&nbsp;<code>prepend()</code>&nbsp;dan&nbsp;<code>append()</code>&nbsp;kita juga bisa mengginakan&nbsp;<em>method</em>&nbsp;<code>insert()</code>&nbsp;untuk menambahkan item pada indeks tertentu.</p>
+<figure><picture><source type="image/svg+xml" data-srcset="/img/python/list/insert.svg" /><source type="image/svg" data-srcset="/img/python/list/insert.svg" /><img title="" src="https://www.petanikode.com/img/python/list/insert.svg" alt="Menambahkan item dengan method insert" data-src="/img/python/list/insert.svg" /></picture></figure>
+<p>Contoh:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python">#list mula-mula
+buah = ["jeruk", "apel", "mangga", "duren"]
+buah.insert(2, "duren")</code></pre>
+</div>
+</div>
+</div>
+<h3>Latihan 2: Membuat Program dengan List</h3>
+<p>Sekarang mari kita coba membuat program dengan memanfaatkan&nbsp;<em>method</em>&nbsp;<code>prepend()</code>&nbsp;dan&nbsp;<code>append()</code>.</p>
+<p>Silahkan langsung di ketik dan dicoba.</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python"># Membuat list kosong untuk menampung hobi
+hobi = []
+stop = False
+i = 0
+# Mengisi hobi
+while(not stop):
+ hobi_baru = raw_input("Inputkan hobi yang ke-{}: ".format(i))
+ hobi.append(hobi_baru)
+ # Increment i
+ i += 1
+ tanya = raw_input("Mau isi lagi? (y/t): ")
+ if(tanya == "t"):
+ stop = True
+# Cetak Semua Hobi
+print "=" * 10
+print "Kamu memiliki {} hobi".format(len(hobi))
+for hb in hobi:
+ print "- {}".format(hb)</code></pre>
+</div>
+</div>
+</div>
+<p>Coba eksekusi dan inputkan sebuah nilai.</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="bash">petanikode@imajinasi ~ $ python hobi.py
+Inputkan hobi yang ke-0: Membaca
+Mau isi lagi? (y/t): y
+Inputkan hobi yang ke-1: Menulis
+Mau isi lagi? (y/t): y
+Inputkan hobi yang ke-2: Main Game
+Mau isi lagi? (y/t): y
+Inputkan hobi yang ke-3: Ngoding
+Mau isi lagi? (y/t): t
+==========
+Kamu memiliki 4 hobi
+- Membaca
+- Menulis
+- Main Game
+- Ngoding</code></pre>
+</div>
+</div>
+</div>
+<h2>Menghapus Item di List</h2>
+<p>Untuk menghapus salah satu isi dari&nbsp;<em>List</em>, kita bisa menggunakan perintah&nbsp;<code>del</code>.</p>
+<figure><picture><source type="image/svg+xml" data-srcset="/img/python/list/delete-list.svg" /><source type="image/svg" data-srcset="/img/python/list/delete-list.svg" /><img title="" src="https://www.petanikode.com/img/python/list/delete-list.svg" alt="Menghapus item di List" data-src="/img/python/list/delete-list.svg" /></picture></figure>
+<p>Perintah&nbsp;<code>del</code>&nbsp;akan menghapus sebuah variabel dari memori.</p>
+<p>Contoh:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python"># Membuat List
+todo_list = [
+ "Balajar Python",
+ "Belajar Django",
+ "Belajar MongoDB",
+ "Belajar Sulap",
+ "Belajar Flask"
+]
+# Misalkan kita ingin menghapus "Belajar Sulap"
+# yang berada di indeks ke-3
+del todo_list[3]
+print todo_list</code></pre>
+</div>
+</div>
+</div>
+<p>Hasilnya,&nbsp;<code>"Belajar Sulap"</code>&nbsp;akan dihapus:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python">['Balajar Python', 'Belajar Django', 'Belajar MongoDB', 'Belajar Flask']</code></pre>
+</div>
+</div>
+</div>
+<p>Selain menggunakan perintah&nbsp;<code>del</code>, kita juga bisa menggunakan&nbsp;<em>method</em>&nbsp;<code>remove()</code>&nbsp;dengan paramter item yang akan dihapus.</p>
+<p>Contoh:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python"># mula-mula kita punya list
+a = ["a", "b", "c", "d"]
+# kemudian kita hapus b
+a.remove("b")
+print a</code></pre>
+</div>
+</div>
+</div>
+<p>Hasilnya:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="txt">["a", "c", "d"]</code></pre>
+</div>
+</div>
+</div>
+<h2>Memotong list</h2>
+<p>Seperti string, list juga dapat dipotong-potong.</p>
+<figure><picture><source type="image/svg+xml" data-srcset="/img/python/list/potong-list.svg" /><source type="image/svg" data-srcset="/img/python/list/potong-list.svg" /><img title="" src="https://www.petanikode.com/img/python/list/potong-list.svg" alt="Potong List" data-src="/img/python/list/potong-list.svg" /></picture></figure>
+<p>Contoh:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python"># Kita punya list warna
+warna = ["merah", "hijau", "kuning", "biru", "pink", "ungu"]
+# Kita potong dari indeks ke-1 sampai ke-5
+print warna[1:5]</code></pre>
+</div>
+</div>
+</div>
+<p>Hasilnya:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python">['hijau', 'kuning', 'biru', 'pink']</code></pre>
+</div>
+</div>
+</div>
+<h2>Operasi List</h2>
+<p>Ada beberapa operasi yang bisa dilakukan terhadap List, diantaranya:</p>
+<ul>
+<li>Penggabungan (<code>+</code>)</li>
+<li>Perkalian (<code>*</code>)</li>
+</ul>
+<p>Contoh:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python"># Beberapa list lagu
+list_lagu = [
+ "No Women, No Cry",
+ "Dear God"
+]
+# playlist lagu favorit
+playlist_favorit = [
+ "Break Out",
+ "Now Loading!!!"
+]
+# Mari kita gabungkan keduanya
+semua_lagu = list_lagu + playlist_favorit
+print semua_lagu</code></pre>
+</div>
+</div>
+</div>
+<p>Hasilnya:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python">['No Women, No Cry', 'Dear God', 'Break Out', 'Now Loading!!!']</code></pre>
+</div>
+</div>
+</div>
+<p>Sedangkan untuk operasi perkalian hanya dapat dilakukan dengan bilangan.</p>
+<p>Contoh:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python"># playlist lagu favorit
+playlist_favorit = [
+ "Break Out",
+ "Now Loading!!!"
+]
+# ulangi sebanyak 5x
+ulangi = 5
+now_playing = playlist_favorit * ulangi
+print now_playing</code></pre>
+</div>
+</div>
+</div>
+<p>Hasilnya:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python">['Break Out', 'Now Loading!!!', 'Break Out', 'Now Loading!!!', 'Break Out', 'Now Loading!!!', 'Break Out', 'Now Loading!!!', 'Break Out', 'Now Loading!!!']</code></pre>
+</div>
+</div>
+</div>
+<h2>List Multi Dimensi</h2>
+<p>Pada contoh-contoh di atas, kita hanya membuat list satu dimensi saja.</p>
+<p>List dapat juga memiliki lebih dari satu dimensi atau disebut dengan multi dimensi.</p>
+<p>List multi dimensi biasanya digunakan untuk menyimpan struktur data yang kompleks seperti tabel, matriks, graph, tree, dsb.</p>
+<figure><picture><source type="image/svg+xml" data-srcset="/img/python/list/list-multidimensi.svg" /><source type="image/svg" data-srcset="/img/python/list/list-multidimensi.svg" /><img title="" src="https://www.petanikode.com/img/python/list/list-multidimensi.svg" alt="List Multidimensi" data-src="/img/python/list/list-multidimensi.svg" /></picture></figure>
+<p>Contoh:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python"># List minuman dengan 2 dimensi
+list_minuman = [
+ ["Kopi", "Susu", "Teh"],
+ ["Jus Apel", "Jus Melon", "Jus Jeruk"],
+ ["Es Kopi", "Es Campur", "Es Teler"]
+]
+# Cara mengakses list multidimensi
+# misalkan kita ingin mengambil "es kopi"
+print list_minuman[2][0]</code></pre>
+</div>
+</div>
+</div>
+<p>Anka dua&nbsp;<code>2</code>&nbsp;pada kode di atas, menujukan indeks list yang akan kita akses. Kemudian setelah dapat list-nya baru kita ambil isinya.</p>
+<p>Hasil outputnya:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="bash">"Es Kopi"</code></pre>
+</div>
+</div>
+</div>
+<p>Bagaimana kalau kita ingin menampilkan semua isi dalam list multi dimensi?</p>
+<p>Gampang&hellip;</p>
+<p>Tinggal gunakan perulangan bersarang.</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="python"># List minuman dengan 2 dimensi
+list_minuman = [
+ ["Kopi", "Susu", "Teh"],
+ ["Jus Apel", "Jus Melon", "Jus Jeruk"],
+ ["Es Kopi", "Es Campur", "Es Teler"]
+]
+for menu in list_minuman:
+ for minuman in menu:
+ print minuman</code></pre>
+</div>
+</div>
+</div>
+<p>Hasilnya:</p>
+<div>
+<div>
+<div>
+<pre tabindex="0"><code data-lang="txt">Kopi
+Susu
+Teh
+Jus Apel
+Jus Melon
+Jus Jeruk
+Es Kopi
+Es Campur
+Es Teler</code></pre>
+</div>
+</div>
+</div>
+<h2>Apa Selanjutnya?</h2>
+                </p>
+  </main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+
+  <div class="footer-newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h4>Our Newsletter</h4>
+          <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+        </div>
+        <div class="col-lg-6">
+          <form action="" method="post">
+            <input type="email" name="email"><input type="submit" value="Subscribe">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Language</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="team.html">team</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Language</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">HTML</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">PHYTON</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">C</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">JAVASCRIPT</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>Contact Us</h4>
+          <p>
+            Jl. Harsono RM No.1 RT09/04, RT.9/RW.4, Ragunan, Pasar Minggu, South Jakarta City, Jakarta 12550
+            <br>
+            <br>
+            <strong>Phone:</strong>021-27806189<br>
+            <strong>Email:</strong>pmb@unsia.ac.id<br>
+          </p>
+
+        </div>
+        <!--penjelasan mengenai weblearning-->
+        <div class="col-lg-3 col-md-6 footer-info">
+          <h3>About Web Learning</h3>
+          <div class="social-links mt-3">
+            <a href="#" class="twitter"><i class="bx bxl-youtube"></i></a>
+            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- End Footer -->
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
